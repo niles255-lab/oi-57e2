@@ -14,15 +14,21 @@ Monkey nao faz parte do fluxo de producao.
 
 ## Estrutura
 
-- `bot.py`: fluxo visual e autoplay legado.
+- `bot.py`: fluxo visual e autoplay.
 - `gameplay_runner.py`: runner headless fail-closed para gameplay real.
 - `model.py` e `solver.py`: estado do board e DFS.
 - `vision.py`: deteccao de board, pecas e diamonds.
 - `board_catalog.py` e `piece_catalog.py`: memoria visual.
+- `scan_board.py` e `scan_piece.py`: ferramentas de catalogacao manual.
+- `visual_memory.py` e `data/visual_memory/`: armazenamento dos perfis e exemplares.
 - `adb_io.py`: captura nativa ADB, tracing scrcpy e transporte experimental.
 - `scrcpy_transport_probe.py`: harness isolado do protocolo scrcpy 4.1.
 - `scrcpy_injection_probe.py`: probe de um evento DOWN/MOVE/UP.
 - `test_model_solver.py` e `test_vision_gates.py`: testes de regressao.
+
+Diagnosticos historicos e capturas de sessoes nao fazem parte do repositorio;
+eles ficam ignorados ou sao removidos para evitar que um log de uma partida
+seja confundido com codigo de producao.
 
 ## Configuracao local
 
