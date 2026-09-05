@@ -80,7 +80,7 @@ PIECE_CATALOG: List[FrozenSet[Tuple[int, int]]] = [
 
 def _load_visual_piece_shapes() -> List[FrozenSet[Tuple[int, int]]]:
     """Load previously confirmed visual shapes without diamond variants."""
-    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                         "data", "visual_memory", "pieces", "catalog", "index.json")
     try:
         with open(path, "r", encoding="utf-8") as handle:

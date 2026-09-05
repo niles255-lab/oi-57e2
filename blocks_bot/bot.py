@@ -25,13 +25,13 @@ import pathlib
 import cv2
 import numpy as np
 
-import config
-import adb_io
-import board_catalog
-from vision import detect_board, read_pieces, draw_overlay, draw_move, _block_mask
-from model import Board, Piece
-from model import is_legal, apply_move
-from solver import best_sequence
+from . import config
+from . import adb_io
+from . import board_catalog
+from .vision import detect_board, read_pieces, draw_overlay, draw_move, _block_mask
+from .model import Board, Piece
+from .model import is_legal, apply_move
+from .solver import best_sequence
 
 
 # ---------------------------------------------------------------------------
@@ -63,7 +63,7 @@ class _Tee:
 
 def _init_session_dir() -> pathlib.Path:
     ts  = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    d   = pathlib.Path(__file__).parent / "logs" / f"run_{ts}"
+    d   = pathlib.Path(__file__).parent.parent / "logs" / f"run_{ts}"
     (d / "diag").mkdir(parents=True, exist_ok=True)
     return d
 
@@ -627,7 +627,7 @@ def main():
                         ts2 = datetime.datetime.now().strftime("%H%M%S")
                         dh  = sdir / "diag"
                         cv2.imwrite(str(dh / f"hold_{ts2}.png"), f2)
-                        from vision import draw_overlay as _ov, read_pieces as _rp, detect_board as _db
+                        from .vision import draw_overlay as _ov, read_pieces as _rp, detect_board as _db
                         ov = _ov(f2, _db(f2), _rp(f2))
                         cv2.imwrite(str(dh / f"hold_overlay_{ts2}.png"),
                                     cv2.resize(ov, None, fx=0.5, fy=0.5))

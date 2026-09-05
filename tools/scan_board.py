@@ -12,8 +12,8 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-import adb_io
-import board_catalog as bc
+from blocks_bot import adb_io
+from blocks_bot import board_catalog as bc
 
 
 def show_profile(p):

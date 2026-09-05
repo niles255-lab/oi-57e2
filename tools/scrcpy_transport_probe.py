@@ -23,12 +23,9 @@ from typing import Optional
 
 import numpy as np
 
-import adb_io
-import board_catalog
-import bot
-import config
-from model import Move, apply_move, is_legal
-from vision import detect_board, read_pieces
+from blocks_bot import adb_io, board_catalog, bot, config
+from blocks_bot.model import Move, apply_move, is_legal
+from blocks_bot.vision import detect_board, read_pieces
 
 
 CONTROL_TYPE_TOUCH = 2

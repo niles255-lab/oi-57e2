@@ -6,7 +6,7 @@ import threading
 import numpy as np
 import cv2
 from typing import Optional, Tuple
-import config
+from . import config
 import ctypes
 import mss
 

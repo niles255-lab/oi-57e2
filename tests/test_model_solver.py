@@ -2,8 +2,8 @@ import unittest
 
 import numpy as np
 
-from model import Board, Piece, apply_move, is_legal
-from solver import best_sequence
+from blocks_bot.model import Board, Piece, apply_move, is_legal
+from blocks_bot.solver import best_sequence
 
 
 def single(piece_id=0):

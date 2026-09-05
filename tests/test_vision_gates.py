@@ -1,6 +1,6 @@
 import unittest
 
-from vision import _snap_to_catalog
+from blocks_bot.vision import _snap_to_catalog
 
 
 class VisionGateTests(unittest.TestCase):

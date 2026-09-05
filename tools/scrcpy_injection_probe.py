@@ -11,10 +11,8 @@ import time
 import cv2
 import numpy as np
 
-import adb_io
-import board_catalog
-import config
-from vision import detect_board, read_pieces
+from blocks_bot import adb_io, board_catalog, config
+from blocks_bot.vision import detect_board, read_pieces
 
 
 SERVER = config.SCRCPY_SERVER_PATH

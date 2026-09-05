@@ -3,8 +3,8 @@ import time
 
 import numpy as np
 
-import config
-from model import Board, Piece, Move, apply_move, is_legal
+from . import config
+from .model import Board, Piece, Move, apply_move, is_legal
 
 
 def evaluate(board: Board) -> float:

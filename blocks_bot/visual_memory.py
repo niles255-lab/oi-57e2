@@ -34,7 +34,7 @@ import datetime
 import cv2
 import numpy as np
 
-BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                         "data", "visual_memory")
 PIECES_DIR = os.path.join(BASE_DIR, "pieces")
 DIAMONDS_DIR = os.path.join(BASE_DIR, "diamonds")
@@ -102,7 +102,7 @@ def detect_diamond_cells(crop_bgr, cells_px, half_px):
     cells_px: lista de (cx, cy) em coordenadas do crop.
     Retorna {idx: {'has_diamond': bool, 'ratio': float, 'class': str|None}}.
     """
-    from vision import (DIAMOND_H_LO, DIAMOND_H_HI, DIAMOND_S_MIN,
+    from .vision import (DIAMOND_H_LO, DIAMOND_H_HI, DIAMOND_S_MIN,
                         DIAMOND_V_MIN, RESCUE_PINK_MIN, RESCUE_GRAY_MIN,
                         RESCUE_REGION_FRAC, DIAMOND_CLASSES,
                         DIAMOND_MINIMUMS)
@@ -192,7 +192,7 @@ def diamond_cell_appearance(crop_bgr, cx, cy, half_px, cls_name):
     dominantes (mediana), brilho médio (V) e contagem de pixels.
     Retorna dict ou None se nada da classe na janela.
     """
-    from vision import DIAMOND_CLASSES
+    from .vision import DIAMOND_CLASSES
     if crop_bgr is None:
         return None
     spec = next((c for c in DIAMOND_CLASSES if c["name"] == cls_name), None)

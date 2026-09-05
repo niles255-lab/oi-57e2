@@ -13,11 +13,11 @@ echo ============================================================
 echo BlockBlaster Bot  |  Redmi Note 8 / Blocks of Bitcoin
 echo ============================================================
 echo Pasta do projeto: %~dp0
-echo Iniciando bot.py ...
+echo Iniciando blocks_bot.bot ...
 echo.
 
 REM Executa o bot (mantém janela aberta ao finalizar)
-python bot.py
+python -m blocks_bot.bot
 
 echo.
 echo ============================================================

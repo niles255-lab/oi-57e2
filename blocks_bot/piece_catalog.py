@@ -12,13 +12,13 @@ import datetime
 import cv2
 import numpy as np
 
-import config
-from vision import (read_pieces, _block_mask, _build_signal_map,
+from . import config
+from .vision import (read_pieces, _block_mask, _build_signal_map,
                     _rescue_maps, _snap_to_catalog, _normalize, _max_run,
                     _complete_winner_with_diamonds, score_candidate,
                     _is_native_scale,
                     NATIVE_DEVICE_W, NATIVE_DEVICE_H)
-from visual_memory import detect_diamond_cells
+from .visual_memory import detect_diamond_cells
 
 
 def _expand_pts(sig, W, H, sx, sy, pitch, dx, dy, r0, c0, bh, bw):
@@ -115,7 +115,7 @@ def mirror_winner(sig, W, H, sx, sy, sc, maps, slot_index=0):
         pts, bv = _expand_pts(sig, W, H, sx, sy, pitch, dx, dy, r0, c0, bh, bw)
     return (pitch, dx, dy, bb, bv, pts, (r0, r1, c0, c1), s, rescued)
 
-BASE = os.path.dirname(os.path.abspath(__file__))
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATALOG_ROOT = os.path.join(BASE, "data", "visual_memory", "pieces", "catalog")
 NORMAL_DIR = os.path.join(CATALOG_ROOT, "normal")
 DIAMOND_DIR = os.path.join(CATALOG_ROOT, "diamond")
@@ -324,7 +324,7 @@ def analyze_slot(frame, slot):
             if bb[r, c]:
                 order.append((r, c))
                 cells_px.append((int(pts[r, c, 0]) - cx0, int(pts[r, c, 1]) - cy0))
-    from visual_memory import detect_diamond_cells
+    from .visual_memory import detect_diamond_cells
     dia = detect_diamond_cells(crop, cells_px, max(4, int(pitch / 2)))
     diamond_cells = sorted([order[int(k)] for k, v in dia.items() if v.get("has_diamond")])
     diamond_classes = {order[int(k)]: v.get("class") for k, v in dia.items()
@@ -348,7 +348,7 @@ def describe_diamonds(a):
     """
     if a is None or not a.get("diamond_cells"):
         return []
-    from visual_memory import diamond_cell_appearance
+    from .visual_memory import diamond_cell_appearance
     cells_px = a.get("cells_px") or []
     order = a.get("cell_order") or []
     half = int(a.get("diamond_half_px") or 8)
@@ -369,7 +369,7 @@ def diamond_type_status(cls_name):
     """(conhecido?, observações) do tipo visual no registro de tipos."""
     if not cls_name:
         return False, 0
-    from visual_memory import diamond_type_index
+        from .visual_memory import diamond_type_index
     entry = diamond_type_index().get("types", {}).get(cls_name)
     if not entry:
         return False, 0
@@ -552,7 +552,7 @@ def save_record(analysis, slot):
                            "block_count": meta["block_count"]})
     _save_index(idx)
     try:
-        from visual_memory import record_diamond_type
+        from .visual_memory import record_diamond_type
         cells_px = a.get("cells_px") or []
         order = a.get("cell_order") or []
         half = int(a.get("diamond_half_px") or 8)

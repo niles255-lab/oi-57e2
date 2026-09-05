@@ -13,8 +13,8 @@ import cv2
 import numpy as np
 from typing import List, Optional, Tuple
 
-import config
-from model import Board, Piece, PIECE_CATALOG
+from . import config
+from .model import Board, Piece, PIECE_CATALOG
 
 # Resolução nativa do dispositivo (Redmi Note 8)
 NATIVE_DEVICE_W = 1080

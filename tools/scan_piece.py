@@ -20,8 +20,8 @@ import cv2
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-import adb_io
-import piece_catalog as pc
+from blocks_bot import adb_io
+from blocks_bot import piece_catalog as pc
 
 
 def get_frame(image_path):

@@ -19,9 +19,9 @@ import datetime
 import cv2
 import numpy as np
 
-from vision import _score_grid_n_grad
+from .vision import _score_grid_n_grad
 
-BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                     "data", "visual_memory", "boards")
 INDEX_PATH = os.path.join(BASE, "index.json")
 
