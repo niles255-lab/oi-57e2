@@ -1,0 +1,42 @@
+{
+  "id": "piece_015",
+  "kind": "normal",
+  "shape": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "rows": 3,
+  "cols": 2,
+  "block_count": 4,
+  "diamond_cells": [],
+  "source_slot": 0,
+  "timestamp": "2026-09-04T23:37:55",
+  "pitch": 58.0,
+  "dx": -8.0,
+  "dy": -8.0,
+  "confidence": 1.625,
+  "frame_size": [
+    1080,
+    2340
+  ],
+  "scale": 1.0,
+  "dominant_color_bgr": [
+    49,
+    125,
+    164
+  ]
+}

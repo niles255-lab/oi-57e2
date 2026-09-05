@@ -1,0 +1,51 @@
+{
+  "id": "piece_024",
+  "kind": "diamond",
+  "shape": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "rows": 2,
+  "cols": 3,
+  "block_count": 4,
+  "diamond_cells": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "source_slot": 1,
+  "timestamp": "2026-09-05T01:01:02",
+  "pitch": 58.0,
+  "dx": -8.0,
+  "dy": -8.0,
+  "confidence": 1.62,
+  "frame_size": [
+    1080,
+    2340
+  ],
+  "scale": 1.0,
+  "dominant_color_bgr": [
+    54,
+    104,
+    128
+  ]
+}

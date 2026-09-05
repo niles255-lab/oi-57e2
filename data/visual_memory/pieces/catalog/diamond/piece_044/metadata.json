@@ -1,0 +1,79 @@
+{
+  "id": "piece_044",
+  "kind": "diamond",
+  "shape": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "rows": 2,
+  "cols": 3,
+  "block_count": 6,
+  "diamond_cells": [
+    [
+      0,
+      1
+    ]
+  ],
+  "diamond_details": [
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "class": "gold",
+      "appearance": {
+        "class": "gold",
+        "dominant_bgr": [
+          61,
+          198,
+          139
+        ],
+        "dominant_hsv": [
+          43,
+          176,
+          198
+        ],
+        "brightness_v": 197.3,
+        "pixel_count": 281
+      }
+    }
+  ],
+  "source_slot": 0,
+  "timestamp": "2026-09-05T10:53:39",
+  "pitch": 58.0,
+  "dx": 7.0,
+  "dy": 7.0,
+  "confidence": 1.9813,
+  "frame_size": [
+    1080,
+    2340
+  ],
+  "scale": 1.0,
+  "dominant_color_bgr": [
+    125,
+    180,
+    208
+  ]
+}

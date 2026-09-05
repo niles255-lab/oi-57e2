@@ -1,0 +1,1528 @@
+{
+  "next_id": 55,
+  "records": [
+    {
+      "id": "piece_001",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          2
+        ]
+      ],
+      "block_count": 4
+    },
+    {
+      "id": "piece_002",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_003",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_004",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 3
+    },
+    {
+      "id": "piece_005",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_006",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 5
+    },
+    {
+      "id": "piece_007",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 2
+    },
+    {
+      "id": "piece_008",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 3
+    },
+    {
+      "id": "piece_009",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 5
+    },
+    {
+      "id": "piece_010",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 9
+    },
+    {
+      "id": "piece_011",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_012",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_013",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_014",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 3
+    },
+    {
+      "id": "piece_015",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_016",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_017",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_018",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "diamond_cells": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "block_count": 5
+    },
+    {
+      "id": "piece_019",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          3
+        ]
+      ],
+      "block_count": 5
+    },
+    {
+      "id": "piece_020",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diamond_cells": [
+        [
+          1,
+          0
+        ]
+      ],
+      "block_count": 4
+    },
+    {
+      "id": "piece_021",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "block_count": 4
+    },
+    {
+      "id": "piece_022",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "block_count": 3
+    },
+    {
+      "id": "piece_023",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "diamond_cells": [
+        [
+          1,
+          0
+        ]
+      ],
+      "block_count": 5
+    },
+    {
+      "id": "piece_024",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "block_count": 4
+    },
+    {
+      "id": "piece_025",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diamond_cells": [
+        [
+          2,
+          1
+        ]
+      ],
+      "block_count": 6
+    },
+    {
+      "id": "piece_026",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 3
+    },
+    {
+      "id": "piece_027",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_028",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 6
+    },
+    {
+      "id": "piece_029",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_030",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 6
+    },
+    {
+      "id": "piece_031",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_032",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 2
+    },
+    {
+      "id": "piece_033",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 3
+    },
+    {
+      "id": "piece_034",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_035",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 3
+    },
+    {
+      "id": "piece_036",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_037",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          0
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 1
+    },
+    {
+      "id": "piece_038",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_039",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_040",
+      "kind": "normal",
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diamond_cells": [],
+      "block_count": 4
+    },
+    {
+      "id": "piece_041",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diamond_cells": [
+        [
+          2,
+          0
+        ]
+      ],
+      "block_count": 3
+    },
+    {
+      "id": "piece_042",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "block_count": 3
+    },
+    {
+      "id": "piece_043",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [
+        [
+          1,
+          0
+        ]
+      ],
+      "block_count": 6
+    },
+    {
+      "id": "piece_044",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          1
+        ]
+      ],
+      "block_count": 6
+    },
+    {
+      "id": "piece_045",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "diamond_cells": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "block_count": 9
+    },
+    {
+      "id": "piece_046",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [
+        [
+          1,
+          2
+        ]
+      ],
+      "block_count": 4
+    },
+    {
+      "id": "piece_047",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "diamond_cells": [
+        [
+          2,
+          0
+        ]
+      ],
+      "block_count": 4
+    },
+    {
+      "id": "piece_048",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          1
+        ]
+      ],
+      "block_count": 4
+    },
+    {
+      "id": "piece_049",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "block_count": 5
+    },
+    {
+      "id": "piece_050",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "block_count": 9
+    },
+    {
+      "id": "piece_051",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "diamond_cells": [
+        [
+          3,
+          0
+        ]
+      ],
+      "block_count": 5
+    },
+    {
+      "id": "piece_052",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "diamond_cells": [
+        [
+          1,
+          1
+        ]
+      ],
+      "block_count": 4
+    },
+    {
+      "id": "piece_053",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "diamond_cells": [
+        [
+          1,
+          0
+        ]
+      ],
+      "block_count": 6
+    },
+    {
+      "id": "piece_054",
+      "kind": "diamond",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "diamond_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "block_count": 9
+    }
+  ]
+}

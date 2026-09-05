@@ -1,0 +1,28 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local diagnostics and captured gameplay sessions
+logs/
+diag_*/
+visual_validation/
+.zenflow-attachments/
+*.log
+
+# Local/generated probe artifacts
+110)
+4
+*.tmp
+*.bak
+
+# Secrets and local environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx

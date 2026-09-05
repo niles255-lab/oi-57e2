@@ -1,0 +1,50 @@
+{
+  "id": "piece_028",
+  "kind": "normal",
+  "shape": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "rows": 2,
+  "cols": 3,
+  "block_count": 6,
+  "diamond_cells": [],
+  "source_slot": 1,
+  "timestamp": "2026-09-05T01:11:18",
+  "pitch": 58.0,
+  "dx": -5.0,
+  "dy": -8.0,
+  "confidence": 2.04,
+  "frame_size": [
+    1080,
+    2340
+  ],
+  "scale": 1.0,
+  "dominant_color_bgr": [
+    21,
+    20,
+    116
+  ]
+}

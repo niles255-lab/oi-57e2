@@ -1,0 +1,25 @@
+{
+  "types": {
+    "gold": {
+      "name": "gold",
+      "count": 17,
+      "exemplar": "gold.png",
+      "appearance": {
+        "class": "gold",
+        "dominant_bgr": [
+          61,
+          198,
+          139
+        ],
+        "dominant_hsv": [
+          43,
+          176,
+          198
+        ],
+        "brightness_v": 198.8,
+        "pixel_count": 319
+      },
+      "first_seen": "2026-09-05T10:51:24"
+    }
+  }
+}

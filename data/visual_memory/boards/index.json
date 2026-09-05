@@ -1,0 +1,34 @@
+{
+  "boards": {
+    "11": {
+      "shape": "11x11",
+      "profile": "11x11\\profile.json",
+      "grid_top_left": [
+        64,
+        572
+      ],
+      "grid_bottom_right": [
+        1015,
+        1523
+      ],
+      "pitch_x": 86.455,
+      "pitch_y": 86.455,
+      "timestamp": "2026-09-05T11:12:22"
+    },
+    "8": {
+      "shape": "8x8",
+      "profile": "8x8\\profile.json",
+      "grid_top_left": [
+        66,
+        573
+      ],
+      "grid_bottom_right": [
+        1014,
+        1521
+      ],
+      "pitch_x": 118.5,
+      "pitch_y": 118.5,
+      "timestamp": "2026-09-05T16:04:47"
+    }
+  }
+}
